@@ -1,0 +1,434 @@
+/* SUbmit one */
+
+@charset "encoding";
+
+/* Name : Rajat Kadian
+   ID : 300351928*/
+
+#one {
+    background-color: cornflowerblue;
+    margin-top: 5px;
+    /* height: 115px; */
+    animation-name: colo;
+    animation-duration: 28s;
+    
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.owl-theme .item {
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 60%;
+}
+
+
+@keyframes colo {
+    from {background-color: cornflowerblue;}
+    to {background-color: hotpink;}
+}
+
+@media only screen and (min-width: 200px)  and (max-width: 900px)
+{
+
+
+    .skills1 {
+        width: 45%;
+        background-color: red;
+        color: white;
+        text-align: center;
+    
+    }
+
+    header #pi{
+        font-size: 30px;
+
+    }
+    nav {
+        border: 0px;
+        width: 100%;
+        
+    }
+
+    nav .nav{
+        font-size: 15px;
+        /* padding-left: 25px; */
+       
+        display: block;
+       
+        padding: 0px;
+        padding-left: 10px;
+        margin-right: 70px;      
+    }
+
+    /* .grid-container {
+   
+        display: block;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);        
+        column-gap: 5%;
+        row-gap: 2%;
+        background-image: url('navback.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 3%;
+       
+    } */
+
+    .grid-container {
+        display: grid;
+        
+    }
+
+    .grid-container .it{
+    
+        width: 80%;
+        height: 80%;
+        
+        font-size: 0px;
+        border: 0px;
+        border-radius: 30%;
+        
+    }
+
+    .grid-container .it p {
+        font-size: 10px;
+    }
+
+    footer {
+        
+        width: 100%;
+        
+    }
+
+    footer .Imge {
+        width: 15px;
+        height: 15px;
+
+
+    
+    }
+
+   
+
+    .owl-theme .item {
+        height: 250px;
+        width: 300px;
+        padding: 4px;
+        border-radius: 90%;
+    }
+    
+}
+
+@media only screen and (min-width: 900px)  and (max-width: 1360px)
+{
+
+    .owl-theme .item {
+        
+       
+        height: 250px;
+        width: 350px;
+        padding: 2px;
+        border-radius: 70%;
+    }
+
+
+    nav .nav{
+        font-size: 10px;
+        /* padding-left: 25px; */
+       
+        display: block;
+       
+        padding-left: 3px;
+      
+        margin-right: 20px;    
+        float: right;
+        font-size: 20px;
+         
+    }
+
+    .grid-container {
+   
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        
+        
+        /* column-gap: 7%;
+        row-gap: 2%; */
+        background-image: url('navback.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 95%;
+       
+        
+        
+       
+    }
+
+    .grid-container .it {
+        border: 0px;
+        font-size: 16px;
+    }
+
+    .grid-container .it img {
+        border-radius: 30%;
+        border: 2px solid black;
+
+    }
+
+}
+
+#pi {
+    font-size: 2vw;
+    color: white;  
+    align-items: center;  
+}
+
+#two {
+    clear: both;
+    overflow: hidden;
+    margin-top: -20px;
+    height: 300px;
+    display: block;
+    background-color: #e6f5ff;
+    
+    
+}
+
+#t2 {
+    float: left;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+#t3 {
+    padding-left: 370px;
+    margin-top: 60px;
+}
+
+.nav {
+    font-size: 1.7vw;
+    text-decoration: none;
+    padding-left: 10%;
+    
+    
+    color: black;
+}
+
+nav > a {
+    padding: 30px;
+}
+
+nav #saleim {
+    height: 7vw;
+    width: 7vw;
+}
+
+#icons {
+    float: right;
+    font-size: 30px;
+    margin-top: -60px;
+    margin-right: 30px;
+    color: cornflowerblue;
+    animation-name: first;
+    animation-duration: 5s;
+
+
+
+}
+
+#ic {
+    padding-left: 20px;
+}
+
+.item {
+    width: 90%;
+    height: 20%;
+    
+    /* padding-right: 20px; */
+}
+
+
+
+
+.im img {
+    width: 100%;
+   
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+
+
+#two > #t2 > h1 {
+    font-family:cursive;
+    color: cornflowerblue;
+    animation-name: first;
+    animation-duration: 10s;
+}
+
+#t3 > .nav {
+    color: cornflowerblue;
+    animation-name: first;
+    animation-duration: 12s;
+}
+
+#t3 > input[type=text]{
+    font-size: 20px;
+    width: 330px;
+}
+
+@keyframes first {
+    from {color: cornflowerblue;}
+    to {color: hotpink;}
+}
+
+
+.grid-container {
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+    
+    column-gap: 10%;
+    row-gap: 2%;
+    background-image: url('navback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+    margin: 3%;
+   
+}
+
+.it{
+    
+    width: 100%;
+    height: 80%;
+    /* height: 500px; */
+    border: 2px solid black;
+}
+
+.it > img {
+    width: 100%;
+    height: 75%;
+}
+
+.it > p {
+    font-size: 1.2vw;
+    color: red;
+    text-align: center;
+}
+
+.So {
+    box-sizing: border-box;
+    background-color: yellowgreen;
+}
+
+.sold1 {
+    width: 90%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.skills1 {
+    width: 75%;
+    background-color: red;
+    color: white;
+    text-align: center;
+
+}
+
+.skills2 {
+    width: 70%;
+    background-color: red;
+    color: white;
+    text-align: center;   
+}
+
+.skills3 {
+    width: 80%;
+    background-color: red;
+    color: white;
+    text-align: center;  
+
+}
+
+.skills4 {
+    width: 90%;
+    background-color: red;
+    color: white;
+    text-align: center;  
+}
+
+.skills5 {
+    width: 40%;
+    background-color: red;
+    color: white;
+    text-align: center;  
+
+}
+
+.skills6 {
+    width: 60%;
+    background-color: red;
+    color: white;
+    text-align: center; 
+
+}
+
+.skills7 {
+    width: 50%;
+    background-color: red;
+    color: white;
+    text-align: center; 
+
+}
+
+.skills8 {
+    width: 70%;
+    background-color: red;
+    color: white;
+    text-align: center; 
+    
+
+}
+
+footer {
+    display: block;
+    /* background-color: cornflowerblue; */
+    text-align: center;
+    /* color: white; */
+    border: 2px solid hotpink;
+    font-family:cursive;
+    font-size: 1.3vw;
+    margin-top: 20px;
+    background-image: url('navback.jpg');
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+.Imge {
+    width: 60px;
+    width: 60px;
+    display: inline;
+
+}

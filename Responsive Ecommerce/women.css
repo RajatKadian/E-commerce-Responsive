@@ -1,0 +1,76 @@
+@charset "encoding";
+
+/* Name : Rajat Kadian
+   ID : 300351928*/
+
+
+div#dateNow {
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 10px;   
+    background-color: transparent;
+    border: hidden;
+    color: red;
+    width: 140px;
+    font-size: 1.5vw;
+    line-height: 1.1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-weight: normal;
+ }
+ 
+ /* Styles for the Countdown Clock */
+ 
+ #countdown {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    width: 45%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    color: red;
+ 
+ }
+ 
+ #Countdown div {
+    /* position: absolute;
+    top: 35px;
+    left: 400px;   
+    background-color: transparent;
+    border: hidden;
+    color: red;
+    width: 440px;
+    font-size: 20px;
+    line-height: 1.1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-weight: normal; */
+
+   display: inline;  
+   width: 100%;
+   font-weight: 700;
+   
+   font-size: 1.2vw;
+   font-family: segment14, sans-serif;
+   color: red;
+   
+  
+   
+   
+    
+ }
+ 
+ div#countdown div span {
+    font-size: 2em;   
+ }
+
+
+ section {
+    margin-top: 20px;
+    padding-left: 40px;
+ }
+
+ aside {
+     display: flex;
+ }

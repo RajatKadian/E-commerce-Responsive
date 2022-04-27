@@ -1,0 +1,252 @@
+<!-- Name : Rajat Kadian
+     id : 300351928-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href = "Men.css" rel="stylesheet" />
+    <link href="home.css" rel="stylesheet"/>
+    <link href ="contact.css" rel="stylesheet"/>
+    <script src="js1.js" defer></script>
+</head>
+<body>
+   <header>
+      <div class="Start">
+          <marquee direction="right">
+              <img src="plane.gif" style="width: 90px;">
+              <p id="sal24"
+                  style="font-weight: 700; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                  HURRY UP! SALE! FEW DAYS ONLY!
+              <div id="Countdown">
+                  <div><span id="days">53</span>Days</div>
+                  <div><span id="hrs">9</span>Hours</div>
+                  <div><span id="mins">14</span>Minutes</div>
+                  <div><span id="secs">48</span>Seconds</div>
+
+              </div>
+              </p>
+
+
+          </marquee>
+
+          <div id="dateNow"></div>
+
+
+
+      </div>
+
+      <nav>
+
+          <img src="sale3.gif" id="saleim">
+          <a href="Men.html" class="nav">Men</a>
+          <a href="women.html" class="nav">Women</a>
+          <a href="contact.html" class="nav">Contact Us</a>
+          <a href="about.html" class="nav">About Us</a>
+          <a href="home.html" class="nav">Home</a>
+      </nav>
+  </header>
+
+    <section>
+        <div class="sec">
+            <h1>Customer Survey</h1>
+            <p>Thank you for taking our customer survey. Your response 
+               helps Red Ball Pizza maintain the tradition that has made 
+               us the top-rated pizzeria in the metro area.
+               All participants are automatically entered into a monthly
+               drawing to receive a <em>Red Ball Express PizzaFest</em> containing 
+               two large pizzas, a 2-liter soda, and a side 
+               order of chicken wings. Check your e-mail inbox for 
+               contest results. </p>
+            <p>Surveys are private and confidential. Red Ball 
+               Pizza will not share your contact information with third 
+               parties, <em>ever</em>. </p>
+            <p>Required values are marked by an asterisk (*)</p>
+            <p></p>
+            <p></p>
+
+        </div>
+       
+  
+        <form id="survey" action="http://www.example.com/redball/survey" method="post">
+           <fieldset id="custInfo">   
+              <legend>Customer Info</legend>
+  
+              <div class="formRow">
+                 <label for="name">Name*</label>
+                 <input name="custName" id="Name" type="text" placeholder="first and last name" style="font-size: 1vw;"  required/>
+              </div>
+  
+              <div class="formRow">
+                 <label for="street">Street address </label>
+                 <input name="custCity" id="street" type="text" />
+              </div>
+  
+              
+  
+              <div class="formRow">
+                 <label for="city">City</label>
+                 <input name = "custCity" id="city" type="text" value="Ormond Beach" style="font-size: 1vw;" />
+                 
+              </div>
+  
+              <div class="formRow">
+                 <label for="state">State</label>
+                 <input name = "custState" id="State" type="text" value="FL" style="font-size: 1vw;" />
+              </div>
+  
+              <div class = "formRow">
+                 <label for="zip">Postal Code</label>
+                 <input name = "custZip" id = "zip" type="text" placeholder="nnnnnn (-nnnn)" pattern="^\d{5}(-\d{4})?$" style="font-size: 1vw;" />
+  
+              </div>           
+  
+              <div class = "formRow">
+                 <label for="phone">Phone number</label>
+                 <input name = "custPhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" style="font-size: 1vw;" />              
+              </div>
+  
+              <div class = "formRow">
+                 <label for="mail">E-mail*</label>
+                 <input name="custEmail" id="mail" type="email" required/>
+  
+              </div>
+  
+              <div class = "formRow">
+                 <label for="info">Where did you hear about us? <br /> (select all that apply)</label>
+                 <Select name = "infoSrc" id="info" size="5" multiple style="font-size: 1vw;" >
+                    <option value="internet">Internet</option>
+                    <option value="mag">Magazine</option>
+                    <option value="news">Newspaper</option>
+                    <option value="word">Word of Mouth</option>
+                    <option value="other">Other</option>
+                 </Select>
+              </div>
+  
+              <!-- <div class="formRow">
+                 <label for="dish">What's your favaourite dish?</label>
+                 <input name = "favDish" id="dish" type="text" list="dishType" />
+                 <datalist id="dishType">
+                    <option value="Anitpasto pizza">  
+                    <option value="Big kahuna Pizza">   
+                    <option value="BBQ Chicken Pizza">  
+                    <option value="Mediterranean herb Pizza">  
+                    <option value="Pasta Rolls">  
+                    <option value="Pasto Artichoke Pizza">  
+  
+                 </datalist>
+              </div> -->
+  
+              <div class = "formRow">
+                 <label for="dineSpin">How many times you shop out per month?</label>
+                 <input name = "dineOut" id="dineSpin" type="number" value="1" step="1" min="0" max="20" style="font-size: 1vw;"  />
+  
+              </div>
+  
+              <input name = "mailMe" id="mailCB" value="yes" type="checkbox" />
+              <label for="mailCB">Add me to your mailing list for great coupons and specials!</label>
+  
+              
+           </fieldset>
+  
+           <fieldset id="expInfo">
+              <legend>Share your Experiences and Rating of Ecommerce.com</legend>
+  
+              <div class="formRow">
+                 <label for = "visit">Date of Order</label>
+                 <input name= "visitDate" id="visit" type="Date" style="font-size: 1vw;" />
+              </div>
+  
+              <div class="formRow">
+                 <label for="order">Order type</label>
+                 <select name="orderType" id = "order" style="font-size: 1vw;" >
+                    <option value = "order1">Carry out</option>
+                    <option value = "order2">Delivery</option>
+                    <option value="order3" selected>Post</option>
+                    
+                 </select>
+              </div>
+  
+              <div class = "formRow">
+                 <label>Was our service friendly</label>
+                 <fieldset class = "optGroup">
+                    <label for="fYes">Yes</label>
+                    <input name = "sFriend" id = "fyes" value="yes" type="radio" />
+                    <label for="fNo">No</label>
+                    <input name = "sFriend" id = "fno" value="no" type="radio" />
+  
+                 </fieldset>
+              </div>
+  
+              <div class="formRow">
+                 <label>Was your order correct</label>
+                 <fieldset class = "optGroup">
+                    <label for="cYes">Yes</label>
+                    <input name = "oCorrect" id="cYes" value="yes" type="radio" />
+                    <label for = "cNo">No</label>
+                    <input name = "oCorrect" id="cNo" value="no" type="radio" />
+  
+                 </fieldset>
+              </div>
+  
+              <div class = "formRow">
+                 <label>Was your order in good condition?</label>
+                 <fieldset class = "optGroup">
+                    <label for="hYes">yes</label>
+                    <input name="foodHot" id = "hYes" value="yes" type="radio" />
+                    <label for = "hNo">No</label>
+                    <input name = "foodHot" id = "hNo" value="no" type="radio" />
+  
+                 </fieldset>
+              </div>
+  
+              <div class = "formRow">
+                 <label for="rangeBox">Rate the overall service<br />(0=poor; 10=great)</label>
+                 0
+                 <input name="serviceRate" id="rangeBox" type="range" value="5" step="1" min="0" max="10" style="font-size: 1vw;" />
+                 10
+  
+              </div>
+  
+              <label for="commBox">Tell us more about your experience!</label>
+              <textarea name="custExp" id="commBox"></textarea>
+  
+  
+  
+           </fieldset>
+  
+           <div id="buttons" style="font-size: 1vw;" >
+              <input type="submit" value="Submit My Survey" class = "btn" />
+              <input type="reset" value="Cancel" class="btn" />
+           </div>
+  
+        </form>
+  
+       
+     </section>
+
+     <footer>
+      <address>ABCD Downtown Main Street, Contact Number - XXXXXXXXXX</address>
+      <p>Follow us on :-
+         <div class="Imge">
+           <a href="https://www.instagram.com/">
+     
+             <img src="insta.jpg" class="Imge" >
+     
+           </a>
+     
+     
+           <a href="https://www.linkedin.com/">
+     
+             <img src="link.png" class="Imge">
+     
+           </a>
+         </div>
+     
+         </p>
+    </footer>
+</body>
+</html>

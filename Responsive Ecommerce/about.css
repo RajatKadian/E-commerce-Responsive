@@ -1,0 +1,255 @@
+@charset "encoding";
+
+/* Name : Rajat Kadian
+   ID : 300351928*/
+
+
+section {
+    margin-top: 10px;
+    background-image: url('navback.jpg');
+    /* height: 500px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+section h1 {
+   
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-size: 1.2vw;
+    color:brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+aside {
+    margin-top: 30px;
+    font-size: 30px;
+    height: 100%;
+   
+    
+}
+
+.vid {
+    position: relative;
+    width: 100%;
+    border-radius: 20%;
+    
+    
+   
+}
+
+.vid  iframe {
+    border-radius: 50px;
+    width: 100%;
+    height: 1000px;
+    
+    
+}
+
+section audio {
+    width: 470px;
+    
+    padding-bottom: 20px;
+}
+
+
+.con {
+    margin-top: 40px;
+    background-image: url('navback.jpg');
+    /* height: 400px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .table{
+       
+    height: 200px;
+    margin-top: 10px;
+
+}
+
+.table thead {
+    height: 50px;
+}
+
+.table thead tr th {
+    width: 150px;
+} */
+
+table {
+      
+    height: 600px;
+    margin-top: 10px;
+    font-size: 1.5vw;
+    width: 100%;
+    text-align: center;
+
+}
+
+.table thead {
+    height: 100px;
+}
+
+.table thead tr th {
+    width: 300px;
+}
+
+
+
+table, th, td {
+    
+    border: 1px solid cornflowerblue;  
+}
+
+
+
+table th {
+    width: 50%;
+    text-align: center;
+}
+
+
+tr:hover {background-color: cornflowerblue;}
+table td {
+    text-align: center;
+}
+
+section p {
+    font-size: 1vw; color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: justify;
+}
+
+@media only screen and (min-width: 200px)  and (max-width: 900px)
+{
+    .Start {
+        
+        height: 100px;
+    }
+
+    .Start #sal24
+    {
+        font-size: 10px;
+        float: right;
+        color: red;
+        
+        font-size: 15px;
+        margin-top: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+    .Start #Countdown {
+        font-size: 5px;
+        display: inline;
+    }    
+
+    section h1 {
+        font-size: 27px;
+    }
+
+    section p {
+
+        font-size: 12px;
+        padding:15px;
+
+    }
+
+    section audio {
+        width: 170px;
+        padding-bottom: 20px;
+    }
+
+    aside .vid iframe{
+
+        height: 300px;
+
+    }
+
+    .table{
+       
+        height: 200px;
+        margin-top: 10px;
+
+    }
+
+    .table thead {
+        height: 50px;
+    }
+
+    .table thead tr th {
+        width: 150px;
+    }
+
+    footer {
+        
+        width: 100%;
+        font-size: 10px;
+        
+    }
+
+    footer .Imge {
+        width: 15px;
+        height: 15px;
+
+
+    
+    }
+
+}
+
+@media only screen and (min-width: 900px)  and (max-width: 1300px)
+{
+
+
+    .table{
+       
+        height: 200px;
+        margin-top: 10px;
+
+    }
+
+    .table thead {
+        height: 50px;
+    }
+
+    .table thead tr th {
+        width: 250px;
+    }
+
+    footer {
+        
+        width: 100%;
+        font-size: 15px;
+        
+    }
+
+    footer .Imge {
+        width: 29px;
+        height: 29px;
+
+
+    
+    }
+
+    aside .vid iframe{
+
+        height: 400px;
+
+    }
+
+    section audio {
+        width: 270px;
+        padding-bottom: 20px;
+    }
+
+    section h1 {
+        font-size: 32px;
+    }
+
+    section p {
+
+        font-size: 14px;
+        padding:15px;
+
+    }
+}
